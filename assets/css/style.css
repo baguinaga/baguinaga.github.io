@@ -1,22 +1,54 @@
+/* Background Image*/
 .hero-layout-transparent {
   /* Photo by Émile Perron on Unsplash */
   background: url("../images/emile-perron-190221-unsplash.jpg") center / cover;
 }
+
+/* Header and Drawer */
 .hero-layout-transparent .mdl-layout__header,
 .hero-layout-transparent .mdl-layout__drawer-button {
   color: white;
 }
 
+/* Header Shadows */
+#title,
 .mdl-layout__drawer-button {
   text-shadow: 2px 3px 5px #000000;
 }
 
+/* Nav Links */
+.active-link {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Containers */
+.mdl-card {
+  background: rgba(255,255,255, 0.97) !important;
+  margin: auto;
+  margin-bottom: 0.6em;
+}
+
+.container-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.container-text {
+  max-width: 700px;
+}
+
+img.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
 @media screen and (min-width: 1024px) {
   .mdl-layout__drawer-button {
     display: none;
   }
 
-  .mdl-layout-title, .mdl-navigation__link {
+  .mdl-navigation__link {
     text-shadow: 2px 3px 5px #000000;
   }
 }
