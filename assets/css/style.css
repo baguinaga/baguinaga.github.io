@@ -1,0 +1,22 @@
+.hero-layout-transparent {
+  /* Photo by Émile Perron on Unsplash */
+  background: url("../images/emile-perron-190221-unsplash.jpg") center / cover;
+}
+.hero-layout-transparent .mdl-layout__header,
+.hero-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+
+.mdl-layout__drawer-button {
+  text-shadow: 2px 3px 5px #000000;
+}
+
+@media screen and (min-width: 1024px) {
+  .mdl-layout__drawer-button {
+    display: none;
+  }
+
+  .mdl-layout-title, .mdl-navigation__link {
+    text-shadow: 2px 3px 5px #000000;
+  }
+}
