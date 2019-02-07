@@ -52,6 +52,7 @@ span.seperator {
 .container-max-width {
   max-width: 900px;
   margin: auto;
+  margin-top: 5vh;
 }
 
 .container-text {
