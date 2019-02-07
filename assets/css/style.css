@@ -29,6 +29,11 @@
   background: rgba(0, 0, 0, 0.15);
 }
 
+span.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 /* Containers */
 .mdl-card {
   background: rgba(255, 255, 255, 0.97) !important;
