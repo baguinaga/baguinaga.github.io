@@ -29,9 +29,17 @@
   background: rgba(0, 0, 0, 0.15);
 }
 
+.social-links {
+  text-align: center;
+}
+
 span.reverse {
   unicode-bidi: bidi-override;
   direction: rtl;
+}
+
+span.seperator {
+  display: none;
 }
 
 /* Containers */
@@ -83,5 +91,15 @@ img.profile-image {
 
   .mdl-navigation__link {
     text-shadow: 2px 3px 5px #000000;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .lbreak {
+    display: none;
+  }
+
+  span.seperator {
+    display: inline;
   }
 }
